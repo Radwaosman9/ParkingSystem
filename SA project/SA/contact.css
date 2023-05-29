@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{
+    width: 925px;
+    height: 30px;
+    background-size: cover;
+}
+nav{
+    background: #0082e6;
+    height:80px;
+    width: 164%;
+}
+label.logo{
+    color: white;
+    font-size:35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+section
+{
+    padding: 10px 40%;
+
+}
+
+.contact
+{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+    position: relative;
+    right: 150px;
+    bottom: 10px;
+
+}
+
+.contact-img img
+{
+   max-width: 170%;
+   width: 7000px;
+   height: 500px;
+   position: relative;
+   right: 100px;
+   border-radius: 10px;
+   
+}
+
+.contant-form h1
+{
+    font-size: 80px;
+    color: black;
+    margin-bottom: 20px;
+    position: relative;
+    right: 20px;
+
+}
+
+span
+{
+    color: #0082e6;
+
+}
+
+.contant-form p
+{
+    color: #030a2dbf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1,1rem;
+    margin-bottom: 3.8rem;
+    width: 400px;
+}
+
+.contant-form form
+{
+    position: relative;
+}
+
+.contant-form form input,
+textarea
+{
+    width: 70%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1,1rem;
+    margin-bottom: .7rem;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+    bottom: 50px;
+
+}
+
+.contant-form textarea
+{
+    resize: none;
+    height: 130px;
+
+}
+
+.contant-form form .btn
+{
+    display: inline-block;
+    background: #0082e6 ;
+    font-size: 1,1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+
+}
+
+.contant-form form .btn:hover
+{
+    border: 2px solid #0082e6;
+    transform: scale(1,1);
+
+}

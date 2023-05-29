@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body
+{
+    background: #fff;
+}
+nav{
+    background: #0082e6;
+    height:80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size:35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover {
+    background: #1b9bff;
+}
+.form-container
+{
+    height: 600px;
+    width: 600px;
+    margin: 50px auto;
+
+}
+
+.form-container form
+{
+    height: 570px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #0077ff , #05073a);
+    padding: 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: #ffff;
+}
+
+.form-container form h3
+{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+
+}
+.form-container form label
+{
+    font-size: 1.3rem;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.form-container form input,textarea
+{
+    padding: 8px;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+
+}
+
+.form-container form input[type="submit"]
+{
+    background-color: rgb(246, 206, 246);
+    display: inline-block;
+    align-self: flex-end;
+    height: 60px;
+    width: 100px;
+    font-size: 100%;
+    display: inline-block;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: ease .10s;
+    transition: ease .20s;
+    cursor: pointer;
+    
+}
+
+.form-container form input[type="submit"]:hover
+{
+    
+    border: 2px solid palevioletred;
+    background: transparent;
+    transform: scale(1,1);  
+}
